@@ -21,7 +21,25 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer2 {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.dancer3 {
+  border:10px solid white;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer4 {
+    background-image: url("https://media.giphy.com/media/CxIz1GZEw4St2/giphy.gif");
+  border:10px solid red
+  background-size: 100px 100px;
+  height: 175px;
+  width: 150px;
+  position: absolute;
 }
