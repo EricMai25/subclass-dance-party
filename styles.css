@@ -43,16 +43,13 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .dancer4 {
-  background-image: url("https://media.giphy.com/media/CxIz1GZEw4St2/giphy.gif");
-  background-position: absolute
-  border:10px solid red
-  background-size: 100px 100px;
+  background-image: url("https://ubisafe.org/images/pikachu-transparent-gif-1.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 200px 200px;
+  
   height: 175px;
   width: 150px;
-  -webkit-transition:width 2s, height 4s;
+  /*-webkit-transition:width 2s, height 4s;*/
   position: fixed;
-}
-.dancer4:hover {
-  width:300px;
-  height:300px;
 }
