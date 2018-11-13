@@ -43,13 +43,12 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .dancer4 {
-  background-image: url("https://ubisafe.org/images/pikachu-transparent-gif-1.gif");
+  /*background-image: url("https://ubisafe.org/images/pikachu-transparent-gif-1.gif");*/
+  background-image: url("https://bestgear.me/wp-content/uploads/2017/08/Bunchie.gif");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 200px 200px;
-  
+  background-size: 100px 100px;
   height: 175px;
   width: 150px;
-  /*-webkit-transition:width 2s, height 4s;*/
+  -webkit-transition:width 2s, height 4s;
   position: fixed;
 }
