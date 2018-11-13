@@ -1,9 +1,11 @@
 body, html{
   height:100%;
+  background-image: url('http://source1events.com/wp-content/uploads/2018/01/shutterstock_555253327-768x544.jpg');
+  background-size:cover;
 }
 body{
   margin: 0px;
-  background-color:#444;
+
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -22,8 +24,13 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid blue;
+  transition: transform .2s;
+  transition-delay: 2s;
   border-radius:10px;
   position:absolute;
+}
+.dancer {
+  transform: scale(35);
 }
 .dancer2 {
   border:10px solid red;
@@ -36,10 +43,16 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .dancer4 {
-    background-image: url("https://media.giphy.com/media/CxIz1GZEw4St2/giphy.gif");
+  background-image: url("https://media.giphy.com/media/CxIz1GZEw4St2/giphy.gif");
+  background-position: absolute
   border:10px solid red
   background-size: 100px 100px;
   height: 175px;
   width: 150px;
-  position: absolute;
+  -webkit-transition:width 2s, height 4s;
+  position: fixed;
+}
+.dancer4:hover {
+  width:300px;
+  height:300px;
 }

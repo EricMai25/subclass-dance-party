@@ -9,5 +9,5 @@ makeGifDancer.prototype = Object.create(makeDancer.prototype);
 makeGifDancer.prototype.constructor = makeGifDancer;
 makeGifDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
-  this.$node.fadeIn();
+  this.$node.fadeIn(5000);
 };
